@@ -1,0 +1,81 @@
+/* Pick a nice background-color, font-family, color, font-size and line-height for the <body>.
+Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.). */
+
+body {
+  color: rgb(10, 81, 125);
+  background-color: lightgoldenrodyellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 200
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#name {
+  color: black;
+}
+
+#image {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgb(17, 17, 17);
+}
+
+.container{
+  margin: auto;
+  /* width: 50%; */
+  text-align: center;
+}
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+.center {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a:hover {
+  color: blue;
+  size: 200px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(17, 17, 17);
+  margin: auto;
+  width: 500px;
+  padding-bottom: 3px;
+}
+
+#goodreads {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#gr_custom_widget_1675870869 {
+  margin: 0 auto;
+  width: 300px;
+}
